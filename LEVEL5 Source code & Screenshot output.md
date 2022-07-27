@@ -173,6 +173,7 @@ sList.sortList();
 print("\nSorted list: ");
 sList.display();
 
-![level5](https://user-images.githubusercontent.com/89097911/181260579-eb1f25c5-b8f1-4239-a985-63644e04b392.png)
 
-![2](https://user-images.githubusercontent.com/89097911/181261532-018e23d1-dc94-49e8-ae55-8900ceb7a4c1.png)
+![2](https://user-images.githubusercontent.com/89097911/181264991-63cde0ed-40f5-4920-9bfe-f5d4ed425972.png)
+![level5](https://user-images.githubusercontent.com/89097911/181264994-ec774f0f-21d2-40f3-aa64-363d99bda6d9.png)
+
