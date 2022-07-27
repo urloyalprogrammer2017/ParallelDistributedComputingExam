@@ -25,6 +25,13 @@ else:
     print("It's not a right triangle")
 
 
+#Output Screenshot
+1.
+![2](https://user-images.githubusercontent.com/89097911/181267990-f4c2652c-1d79-44db-836a-7d34234af79f.png)
+2.
+![1](https://user-images.githubusercontent.com/89097911/181268000-2d2f026b-2eaa-47cb-b00a-9b55f392bdb7.png)
+
+
 
 Question 3:
 Write a program that prompts the user to input a number between 0 
@@ -55,7 +62,14 @@ if N<=9:
 else:
     index=get_index(N)
     print(get_letter(index).upper())
-    
+
+#Output Screenshot
+1.
+![2](https://user-images.githubusercontent.com/89097911/181268783-65d2e1a0-288e-46ad-b383-a0262bb5efd0.png)
+2.
+![1](https://user-images.githubusercontent.com/89097911/181268789-858a9452-36fd-48d8-914b-5dae3c4e4704.png)
+
+
 
 Question 4: Write a program that will display all numbers divisible by 3, 4 and 5 from 1-50.
 
