@@ -9,7 +9,7 @@ e. All numbers that contains the digit 9 (e.g 29, 91, 393, 961)
 Answer: Source with Output Screenshot
 
 
-#Programmed by: Luganob Jerald M. BSCS-3B
+# Programmed by: Luganob Jerald M. BSCS-3B
 
 import random
 
@@ -104,7 +104,7 @@ Output: Sum of last three nodes in the linked list is 4 + 1 + 12 = 15.
 Answer: Source Code & Output Screenshot
 
 
-# Programmed by: :Luganob, Jerald M.
+# Programmed by: Luganob, Jerald M.
 
 class Node:
     def __init__(self, data):
