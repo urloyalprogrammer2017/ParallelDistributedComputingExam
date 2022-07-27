@@ -88,3 +88,80 @@ print("Elements with digit 9: " + str(res))
 ![2](https://user-images.githubusercontent.com/89097911/181309809-29ceaf11-1d26-4cd8-958c-c538df6915d0.png)
 2.
 ![1](https://user-images.githubusercontent.com/89097911/181309820-08329bf0-592d-4790-8f0b-d6dcca0bd2ad.png)
+
+
+2. Given a linked list of size K, your task is to complete the function 
+sum_of_lastN_nodes(), which should return the sum of last N nodes 
+of the linked list. The function takes two arguments as input, the 
+reference pointer of the head of the linked list and the integer N. 
+Example: 
+5->10->6->4->1->12 
+N = 3 
+sum_of_lastN_nodes(6, N) 
+Output: Sum of last three nodes in the linked list is 4 + 1 + 12 = 15.
+
+
+Answer: Source Code & Output Screenshot
+
+
+# Programmed by: :Luganob, Jerald M.
+
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+
+
+head = None
+n = 0
+sum = 0
+
+def push(head_ref, new_data):
+    global head
+    new_node = Node(0)
+    new_node.data = new_data
+    new_node.next = head_ref
+    head_ref = new_node
+    head = head_ref
+
+def sumOfLastN_Nodes(head):
+    global sum
+    global n
+
+    if (head == None):
+        return
+
+    sumOfLastN_Nodes(head.next)
+
+    if (n > 0):
+        sum = sum + head.data
+        n = n - 2
+
+def sumOfLastN_NodesUtil(head, n):
+    global sum
+
+    # if n == 0
+    if (n <= 0):
+        return 0
+
+    sum = 0
+    sumOfLastN_Nodes(head)
+    return sum
+
+
+
+head = None
+
+# create linked list 5, 10, 6, 4, 1, 12
+push(head, 5)
+push(head, 10)
+push(head, 6)
+push(head, 4)
+push(head, 1)
+push(head, 12)
+
+n = 3
+print("Sum of last ", n,  " nodes = ", sumOfLastN_NodesUtil(head, n))
+
+#Output Screenshot
+![1](https://user-images.githubusercontent.com/89097911/181318052-b8823db6-00bf-458b-9720-c8f184862c34.png)
