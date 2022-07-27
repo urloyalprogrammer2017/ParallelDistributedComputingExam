@@ -25,11 +25,6 @@ is a number that measures the relative performance of two systems processing the
 Efficiency - measure of the efficiency of the parallel processor to execute a given parallel algorithm. Any degradation in performance
 due to parallelization overhead will result in. being less than one.
 
-3. How does the performance of metrics of parallel systems affect each other? Explain.
-
-Answer:
-The performance of any parallel application is ultimately bounded by the speed, capacity and interfaces of each processing element. Programming a parallel
-computer depends on how the memory of the hardware platform is organized or divided among the processors.
 
 4. Explain what pipelining is.
 
@@ -37,12 +32,3 @@ Answer:
 What is pipelining explain it?
 In computers, a pipeline is the continuous and somewhat overlapped movement of instruction to the processor or in the arithmetic steps taken by the
 processor to perform an instruction. Pipelining is the use of a pipeline.
-
-5. Illustrate and explain what a Von Neuman Architecture is.
-
-Answer:
-Von Neumann architecture is based on the stored-program computer concept, where instruction data and program data are stored in the same memory.
-This design is still used in most computers produced today.
-Example of Von Neumann architecture:
-AC (Accumulator) - This register holds the intermediate arithmetic and logic results.
-
