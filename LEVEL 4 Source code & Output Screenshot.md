@@ -7,6 +7,8 @@ d. All prime numbers
 e. All numbers that contains the digit 9 (e.g 29, 91, 393, 961) 
 
 Answer: Source with Output Screenshot
+
+
 #Programmed by: Luganob Jerald M. BSCS-3B
 
 import random
