@@ -87,3 +87,6 @@ if __name__ == "__main__":
     N = 50
     result(N)
 
+#Output Screenshot
+![3](https://user-images.githubusercontent.com/89097911/181269137-9ef0c586-95ee-4b26-bf67-3a184db871b3.png)
+
