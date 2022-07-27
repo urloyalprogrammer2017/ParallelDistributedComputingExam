@@ -1,3 +1,12 @@
+1. Write a program that will generate 100 3-digit random numbers and 
+store it in a list. The program should display the following: 
+a. All elements in the list 
+b. All numbers grouped by odd and even numbers 
+c. All numbers divisible by 9. 
+d. All prime numbers 
+e. All numbers that contains the digit 9 (e.g 29, 91, 393, 961) 
+
+Answer: Source with Output Screenshot
 #Programmed by: Luganob Jerald M. BSCS-3B
 
 import random
